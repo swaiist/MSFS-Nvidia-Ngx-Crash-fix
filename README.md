@@ -6,6 +6,8 @@ Ein leichtgewichtiges Windows-Batch-Skript, das ein bekanntes Problem mit **Micr
 Der Absturz (Fehlercode **0xC0000005**) wird häufig durch **beschädigte NVIDIA-NGX-Moduldateien verursacht, insbesondere durch den Ordner oder die Datei 190_E658703, die sich an folgendem Speicherort befindet:
 
 C:\ProgramData\NVIDIA\NGX\models
+
+
 Dieses Skript findet und entfernt automatisch alle Dateien oder Ordner, die diesen Namen enthalten, wodurch viele Nutzer den Absturz erfolgreich beheben konnten.
 
 ---
