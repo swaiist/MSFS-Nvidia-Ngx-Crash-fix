@@ -53,6 +53,8 @@ A lightweight Windows batch script that fixes a known **Microsoft Flight Simulat
 The crash (error code **0xC0000005**) is often caused by **corrupted NVIDIA NGX model files**, specifically the folder or file **`190_E658703`** located at:
 
 C:\ProgramData\NVIDIA\NGX\models
+
+
 This script automatically detects and removes these files, helping many users resolve the crash without reinstalling MSFS or drivers.
 
 ---
