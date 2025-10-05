@@ -3,7 +3,7 @@
 # 🧩 NVIDIA NGX Model Cleaner (MSFS Crash Fix)
 
 Ein leichtgewichtiges Windows-Batch-Skript, das ein bekanntes Problem mit **Microsoft Flight Simulator (MSFS 2020)** behebt, bei dem der Simulator während des Ladens bei etwa **70 % Fortschritt** abstürzt.  
-Der Absturz (Fehlercode **0xC0000005**) wird häufig durch **beschädigte NVIDIA N
+Der Absturz (Fehlercode **0xC0000005**) wird häufig durch **beschädigte NVIDIA-NGX-Moduldateien verursacht, insbesondere durch den Ordner oder die Datei 190_E658703, die sich an folgendem Speicherort befindet:
 
 C:\ProgramData\NVIDIA\NGX\models
 Dieses Skript findet und entfernt automatisch alle Dateien oder Ordner, die diesen Namen enthalten, wodurch viele Nutzer den Absturz erfolgreich beheben konnten.
@@ -49,8 +49,6 @@ Das Löschen dieser Datei behebt das Problem in den meisten Fällen zuverlässig
 
 A lightweight Windows batch script that fixes a known **Microsoft Flight Simulator (MSFS 2020)** issue where the simulator crashes during loading — usually around **70 % progress**.  
 The crash (error code **0xC0000005**) is often caused by **corrupted NVIDIA NGX model files**, specifically the folder or file **`190_E658703`** located at:
-
-
 
 C:\ProgramData\NVIDIA\NGX\models
 This script automatically detects and removes these files, helping many users resolve the crash without reinstalling MSFS or drivers.
